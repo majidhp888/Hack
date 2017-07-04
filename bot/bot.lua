@@ -227,7 +227,7 @@ function create_config( )
       "youtube",
       "media_handler",
       "moderation"},
-    sudo_users = {our_id},
+    sudo_users = {207932615},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
@@ -235,7 +235,7 @@ function create_config( )
   print ('saved config into ./data/config.lua')
 end
 
-function on_our_id (id)
+function on_our_id (207932615)
   our_id = id
 end
 
