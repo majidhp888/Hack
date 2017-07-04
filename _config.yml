@@ -1,0 +1,8 @@
+title: uzzbot
+description: A Telegram Bot based on plugins
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
