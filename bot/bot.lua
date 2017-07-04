@@ -263,7 +263,7 @@ function load_plugins()
       local t = loadfile("plugins/"..v..'.lua')()
       plugins[v] = t
     end)
-
+     Iua update
     if not ok then
       print('\27[31mError loading plugin '..v..'\27[39m')
       print('\27[31m'..err..'\27[39m')
@@ -311,7 +311,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 207932615
 now = os.time()
 math.randomseed(now)
 started = false
